@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   test5.c                                            :+:    :+:            */
+/*   test.c                                             :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: avan-dam <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/12/06 16:58:45 by avan-dam      #+#    #+#                 */
-/*   Updated: 2021/07/01 12:13:13 by ambervandam   ########   odam.nl         */
+/*   Updated: 2021/07/01 12:20:03 by ambervandam   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int		main(void)
 	int		fd;
 	char	*line;
 
-	fd = open("tests/test.txt", O_RDONLY);
+	fd = open("test/test.txt", O_RDONLY);
 	while (get_next_line(fd, &line) != 0)
 		printf("line: [%s]\n", line);	
 	close(fd);
