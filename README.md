@@ -21,6 +21,7 @@ To run the program run the following commands in terminal to test
 ![Screenshot 2021-07-01 at 12 21 23](https://user-images.githubusercontent.com/61982496/124108923-e77a3f80-da66-11eb-8a39-0a0fc583a4f1.png)
 
 I created a testing function which will open test/test.txt and use my get_next_line function to read from the file line by line.
+
 In the screenshot above you can see that what is in the test/test.txt is read correctly.
 
 
